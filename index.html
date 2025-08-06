@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SHINODA HARUHA Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;600&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="navbar">
+  <div class="logo">SHINODA HARUHA</div>
+  <div class="menu-toggle" id="menu-toggle">
+    &#9776;
+  </div>
+  <nav class="nav-menu" id="nav-menu">
+    <ul>
+		<li><a href="#about">About</a></li>
+		<li><a href="#work">Work</a></li>
+		<li><a href="#skill">Skill</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+  <div class="container">
+	  <div class="left">
+		<p>HEllo. my name is</p>
+		  <div class="news-banner">
+  <div class="news-banner__content">
+    <span>SHINODA HARUHA</span>
+  </div>
+</div>
+      </div>
+	  
+  <div class="right">
+	  <h1>Original </h1>  <h1><p>design</p></h1>
+</div>	
+	<div class="divider"></div>
+	</div>
+	<h2 id="about">About</h2>
+		<div id="about_in">
+			<p>篠田　桜羽</p><p>秋田県秋田市出身</p><p>仙台医療秘書福祉＆IT専門学校WEB・IT科２年</p>
+			<p>ホームページを作る上で見る方が分かりやすく、見やすいportfolioを意識しています。
+				<br>また色合いや配置など流行に合わせて調べたり参考にしたりして、新しい発想を取り入れて作ることが好きです。</p>
+		</div>
+		<div id="work">
+			<div id="work_in">
+				<img src="img/neil.png" alt="">
+				<img src="img/tuki.png" alt="" class="pat_a">
+				<img src="img/kosume.png" alt="">
+				<img src="img/sale.png" alt="" class="pat_a">
+			</div>
+	</div>
+	
+<h2 id="skill">skill / certification</h2>
+<div class="sikaku">
+	<h3>skill</h3>
+  <ul>
+    <li>HTML, CSS　:　ホームページやportfolioを作成しました。</li>
+    <li>Illustrator　:　バナー広告やチラシ、ペンツール・ブラシを使った作品を制作しました。</li>
+    <li>Photoshop　:　背景透過、彩度や明度調整で画像をきれいにし、素材として活用してきました。</li>
+    <li>Word, Excel, Access :　表や明細表の作成など、事務的なソフトの操作も学びました。</li>
+  </ul>
+	</div>
+<div class="sikaku">
+	<h3>certification</h3>
+  <ul>
+    <li>全商情報処理検定３級</li>
+    <li>ビジネス経済検定3級</li>
+    <li>秘書技能検定3級</li>
+    <li>ホームページ作成検定1級</li>
+    <li>文部省認定ファッションコーディネート色彩能力検定３級</li>
+    <li>WEBクリエイター能力検定エキスパート</li>
+  </ul>
+</div>		
+<section class="scroll-banner">
+  <img src="img/haikei.png" alt="背景">
+  <div class="scroll-text">
+<p>
+  Thank you for watching <span class="dot">⬤</span> Let’s create something together <span class="dot">⬤</span> SHINODA HARUHA <span class="dot">⬤</span>
+</p>
+  </div>
+</section>
+	<section id="contact">
+  <h2>Contact</h2>
+  <p>お気軽にお問い合わせください。</p>
+  <form class="contact-form">
+    <input type="text" name="name" placeholder="お名前" required>
+    <input type="email" name="email" placeholder="メールアドレス" required>
+    <textarea name="message" rows="5" placeholder="メッセージ内容" required></textarea>
+    <button type="submit">送信</button>
+  </form>
+</section>
+
+
+  <footer class="footer">
+    © 2025 SHINODA HARUHA
+  </footer>
+<script>
+  const hamburger = document.getElementById('hamburger');
+  const navMenu = document.getElementById('nav-menu');
+
+  hamburger.addEventListener('click', () => {
+    navMenu.classList.toggle('active');
+  });
+</script>
+
+
+</body>
+</html>
+
+
+
+
